@@ -1,4 +1,12 @@
 import java.util.*;
+
+// public class arraylist {
+//     //reverse of an arraylist
+//     public static void reverseAL(ArrayList<Integer> list){
+//         for(int i=list.size()-1;i>=0;i--){
+//             System.out.print(list.get(i)+" ");
+//         }
+//     }
 import java.util.stream.IntStream;
 
 public class arraylist {
@@ -313,7 +321,6 @@ public class arraylist {
         divide_conqer(start, 2*increment, list, n);
         divide_conqer(start+increment, 2*increment, list, n);
     };
-
     public static void main(String[] args) {
         // //arraylist creation by java collection framework
         // ArrayList<Integer> list1=new ArrayList<>();
@@ -351,6 +358,15 @@ public class arraylist {
         // int len=list1.size();
         // System.out.println(len);
 
+// dsa-branch-1
+//         ArrayList<Integer> list1=new ArrayList<>();
+//         list1.add(1);
+//         list1.add(2);
+//         list1.add(3);
+//         list1.add(4);
+//         list1.add(5);
+//         reverseAL(list1);
+//
         // ArrayList<Integer> list1=new ArrayList<>();
         // list1.add(1);
         // list1.add(8);
